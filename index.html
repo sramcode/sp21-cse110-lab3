@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang=”en”>
+    <head>
+        <title>Sonika's Journal Entries</title>
+        <meta name="author" content="Sonika Ram">
+        <link rel="icon" href="sloth.ico">
+    </head>
+    <body>
+        <main>
+            <details open>
+                <summary>Sonika's Journal</summary> 
+                <p>These are my journal entries for the past three days! I have listed some tasks and 
+                    a few things that I did recently. I hope you enjoy reading them!</p>
+            </details>
+            <header> 
+                <h1>Sonika's Journal Entries</h1>
+            </header>
+            <div>
+                <nav>
+                    <a href="#firstEntry">Entry #1</a>
+                    <a href="#secondEntry">Entry #2</a>
+                    <a href="#thirdEntry">Entry #3</a>
+                </nav>
+            </div>
+          <section>
+            <h2 id="firstEntry">Entry 1 - Almost the weekend!</h2>
+            <h3>04/09/21</h3> 
+            <p> Today was a good day! I was really productive and I completed 
+                most of the tasks that were assigned to me. I had some trouble 
+                beginning my assignments, but once I got started, I was able to 
+                finish which is good.
+
+                <br><br>After we finished our assignments for the day, my roommate and I watched the sunset!
+            </p>
+            <video width="300" controls>
+                <source src="sunset.mp4" type="video/mp4">
+            </video>
+            <hr>
+            <div>
+                <p><b>Friday's Tasks:</b></p>
+                <ol>
+                    <li>CSE 11 Lecture</li>
+                    <li>Go to work</li>
+                    <li>Workout</li>
+                    <li>Go to my classes</li>
+                    <li>Tutor for CSE 11</li>
+                    <li>Finish math homework</li>
+                    <li>Do research about the <i>Geospiza scandens</i></li>
+                </ol>
+            </div>
+        </section>
+        <section>
+            <h2 id="secondEntry">Entry 2 - Weekending!</h2>
+            <h3>04/10/21</h3> 
+            <p> Today was <em>really</em> relaxing, but also stressful at the same time. We are looking for
+                our apartments for next year, and we toured a few today. I think we found one we all
+                liked, but it isn't available for June yet so we are unsure what to do. I am sure it
+                will all work out in the end though! <br> <br>Other than that, we came back to our apartment
+                on campus and did homework and listened to music. We also went grocery shopping today and went on 
+                a spontaneous hike!
+            </p>
+            <div>
+                <img src="hike.jpg" width="300"> 
+                <p>Here's a picture of the hike we went on today!</p>
+            </div>
+           
+
+            <hr>
+            <div>
+                <p><b>Saturday's Tasks:</b></p>
+                <ol>
+                   <li><strong>URGENT!! Apartment tours</strong></li>
+                   <li>Start weekend homework</li>
+                   <li>Grocery shopping</li>
+                </ol>
+            </div>
+            <hr>
+            <div>
+                <p><b>Shopping list:</b></p>
+                <ul>
+                    <li>Chia Seeds</li>
+                    <li>Apples</li>
+                    <li>Oranges</li>
+                    <li>Toothpaste</li>
+                    <li>Cookies</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2 id="thirdEntry">Entry 3 - Getting ready for the week!</h2>
+            <h3>04/11/21</h3> 
+            <p> Happy Sunday! This morning I went to get coffee from the market. Today I plan on grading some PA's for the class I am tutoring for, and finishing 
+                up my weekend homework. I think my roommate and I will watch a movie tonight, but I have lots of
+                meetings before then. I got lunch with my parents, and I am feeling good about the day and the
+                week to come. 
+            </p>
+            <hr>
+            <div>
+                <p><b>Sunday's Tasks:</b></p>
+                <ol>
+                    <li>Grade PA's</li>
+                   <li>Finish homework</li>
+                   <li>Lunch with parents</li>
+                </ol>
+            </div>
+            <hr>
+            <div>
+                <p><b>Song of the day!</b></p>
+                <p><span>Deja Vu by Olivia Rodrigo (credits: on Youtube by Criz Depz Music)</span></p>
+                <audio controls>
+                    <source src="deja vu.mp3" type="audio/mp3">
+                </audio>
+            </div>
+        </section>
+
+        </main>
+        <br>
+        <hr>
+        <div>
+            <h2>Add a new entry!</h2>
+            <form action="" method="get" class="newEntry"> 
+                <div>
+                    <label for="entryNum">Enter the entry number: </label>
+                    <input type="text" name="entryNum" id="entryNum">
+                </div>
+                <br>
+                <div>
+                    <label for="entryDate">What is today's date?</label>
+
+                    <input type="date" id="entryDate" name="entryDate">
+                </div>
+              
+                <div>
+                    <p>What do you want to include in this entry?</p>
+                    <input type="checkbox" id="rant" name="rant">
+                    <label for="rant">Rant</label>
+                    <input type="checkbox" id="shopping-list" name="shopping-list" >
+                    <label for="shopping-list">Shopping List</label>
+                    <input type="checkbox" id="tasks" name="tasks" >
+                    <label for="tasks">Tasks</label>
+                    <input type="checkbox" id="audio" name="audio" >
+                    <label for="audio">Audio</label>
+                    <input type="checkbox" id="images" name="images" >
+                    <label for="images">Images</label>
+                    <input type="checkbox" id="video" name="video" >
+                    <label for="video">Video</label>
+                </div>
+
+                <div>
+                    <p>How are you feeling today?</p>
+                    <input type="radio" id="good" name="feeling" value="good">
+                    <label for="good">Good!</label>
+                    <input type="radio" id="eh" name="feeling" value="eh">
+                    <label for="eh">Eh..</label>
+                    <input type="radio" id="bad" name="feeling" value="bad">
+                    <label for="bad">Bad!</label>
+                </div>
+                <br>
+                <div>
+                    <label for="goals">Today's Goal:</label>
+                    <input list="goals" id="goals-choices" name="goals-choices"/>
+
+                    <datalist id="goals">
+                        <option value="Be productive!">
+                        <option value="Sleep in.">
+                        <option value="Run errands.">
+                        <option value="Relax and have fun!">
+                        <option value="WORK WORK WORK">
+                    </datalist>
+                </div>
+                <br>
+                <div>
+                    <fieldset>
+                        <legend>Where are you eating dinner today?</legend>
+                    
+                        <input type="radio" id="dinner1" name="dinner1">
+                        <label for="dinner1">Eating at home!</label>
+                        <input type="radio" id="dinner2" name="dinner2">
+                        <label for="dinner2">Eating at a restaurant</label>
+                        <input type="radio" id="dinner3" name="dinner3">
+                        <label for="dinner3">Getting takeout!</label>
+                </div>
+                <div></div>
+                    <p>Start typing your entry:</p>
+                    <textarea id="story" name="story" rows="10" cols="50">Today was a fun day!</textarea>
+          
+                </div>
+                <br>
+                <div>
+                <label for="sleep-select">How much did you sleep last night?</label>
+                    <select name="sleep" id="sleep-select">
+                        <option value="">--Please choose an option--</option>
+                        <option value="none">0</option>
+                        <option value="one-to-four">1-4 hours</option>
+                        <option value="five-to-seven">5-7 hours</option>
+                        <option value="more-than-eight">> 8 hours</option>
+                    </select>
+                </div>
+                <br>
+                <button class="add-entry" type="button">Add Entry!</button>  
+            </form>
+        </div>
+        
+    </body>
+    <footer>
+        <p>© 2021 Sonika Ram</p>
+    </footer>
+</html>
