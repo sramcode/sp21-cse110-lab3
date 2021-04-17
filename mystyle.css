@@ -5,3 +5,28 @@ body {
 #title {
     color: darkgreen
 }
+
+/* Journal Entry 2 Styling */
+#secondEntry {
+  color:  hsl(27, 34%, 41%);
+  font-family: 'Orelega One', cursive;
+}
+
+#journal-two {
+  padding-left: 1vw;
+  padding-right: 1cm;
+  padding-bottom: 2vh;
+  margin-top: 2mm;
+  border-style:dotted;
+  border-color: #14612b;
+  border-width: 3px;
+  border-radius: 2em
+  
+}
+
+.tasks2 {
+  color: rgb(11, 66, 36);
+}
+.shopping-list { 
+  color: rgb(11, 66, 36);
+}
