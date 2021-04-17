@@ -5,13 +5,15 @@
         <meta name="author" content="Sonika Ram">
         <link rel="icon" href="sloth.ico">
         <link rel="stylesheet" href="mystyle.css"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
     </head>
     <body>
         <main>
             <header> 
                 <h1 id="title">Sonika's Journal Entries</h1>
             </header>
-            
+        <div class="container">
             <details open>
                 <summary>Sonika's Journal</summary> 
                 <p>These are my journal entries for the past three days! I have listed some tasks and 
@@ -24,21 +26,24 @@
                     <a href="#thirdEntry">Entry #3</a>
                 </nav>
             </div>
-          <section>
-            <h2 id="firstEntry">Entry 1 - Almost the weekend!</h2>
-            <h3>04/09/21</h3> 
-            <p> Today was a good day! I was really productive and I completed 
-                most of the tasks that were assigned to me. I had some trouble 
-                beginning my assignments, but once I got started, I was able to 
-                finish which is good.
-
-                <br><br>After we finished our assignments for the day, my roommate and I watched the sunset!
-            </p>
-            <video width="300" controls>
-                <source src="sunset.mp4" type="video/mp4">
-            </video>
+          <section id="journal-one">
+            <div class="journalText">
+                <h2 id="firstEntry">Entry 1 - Almost the weekend!</h2>
+                <h3>04/09/21</h3> 
+                <p> Today was a good day! I was really productive and I completed 
+                    most of the tasks that were assigned to me. I had some trouble 
+                    beginning my assignments, but once I got started, I was able to 
+                    finish which is good.
+    
+                    <br><br>After we finished our assignments for the day, my roommate and I watched the sunset!
+                </p>
+                <video controls>
+                    <source src="sunset.mp4" type="video/mp4">
+                </video>
+            </div>
+            
             <hr>
-            <div>
+            <div class="tasks">
                 <p><b>Friday's Tasks:</b></p>
                 <ol>
                     <li>CSE 11 Lecture</li>
@@ -116,6 +121,8 @@
             </div>
         </section>
 
+        </div>
+           
         </main>
         <br>
         <hr>

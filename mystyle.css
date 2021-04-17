@@ -2,6 +2,14 @@ body {
     background-color: darkseagreen;
   }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+
+}
+
 #title {
     color: darkgreen
 }
@@ -29,4 +37,59 @@ body {
 }
 .shopping-list { 
   color: rgb(11, 66, 36);
+}
+
+/* Journal Entry 1 Styling */
+
+
+/* max width */
+@media (max-width: 75rem) {
+  #journal-one {
+    border-style: dashed;
+    border-color: darkgreen;
+    border-width: 3px;
+    border-radius: 2em;
+  
+  }
+}
+
+
+/* max width */
+@media (min-width: 5rem) {
+  #journal-one {
+    border-style: dashed;
+    border-color: darkgreen;
+    border-width: 3px;
+    border-radius: 2em;
+  
+  }
+}
+#firstEntry {
+  color:  hsl(27, 34%, 41%);
+  font-family: 'Orelega One', cursive;
+  text-align: center;
+  position: relative;
+}
+
+#journal-one {
+  padding-left: 1cm;
+  padding-right: 1cm;
+  margin-top: 2vh;  
+}
+
+video {
+  width: 300px;
+  height: 200px;
+}
+
+.journalText {
+ text-align: center;
+}
+.tasks {
+  text-align: center;
+  color: rgb(128, 59, 3);
+}
+
+a[href$="Entry"] {
+  color: brown;
 }
