@@ -5,3 +5,19 @@ body {
 #title {
     color: darkgreen
 }
+
+/* add new entry styling */
+
+button:hover {
+  color: darkgreen;
+}
+
+button:active {
+  background-color:darkgreen;
+  color: white;
+}
+
+.add-goals {
+  display: flex;
+  justify-content: center;
+}
