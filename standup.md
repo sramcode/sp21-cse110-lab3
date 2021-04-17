@@ -1,4 +1,4 @@
-# Standup Nodes for [Date]
+# Standup Nodes for [Today's Date]
 
 
 ## What am I currently working on? ##
