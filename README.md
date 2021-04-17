@@ -1,1 +1,1 @@
-[Sonika's Journal](https://sramcode.github.io/Lab2/)
+[Sonika's Journal](https://sramcode.github.io/sp21-cse110-lab3/)
