@@ -2,6 +2,14 @@ body {
     background-color: darkseagreen;
   }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+
+}
+
 #title {
     color: darkgreen;
 }
@@ -57,4 +65,7 @@ video {
   color: rgb(128, 59, 3);
 }
 
+a[href$="Entry"] {
+  color: brown;
+}
 
