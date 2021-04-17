@@ -5,8 +5,15 @@ body {
 .container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+
 }
 
 #title {
     color: darkgreen
+}
+
+a[href$="Entry"] {
+  color: brown;
 }
