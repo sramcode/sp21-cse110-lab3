@@ -3,5 +3,33 @@ body {
   }
 
 #title {
-    color: darkgreen
+    color: darkgreen;
 }
+
+/* Journal Entry 1 Styling */
+#firstEntry {
+  color:  hsl(27, 34%, 41%);
+  font-family: 'Orelega One', cursive;
+  text-align: center;
+}
+
+#journal-one {
+  padding-left: 1cm;
+  padding-right: 1cm;
+  margin-top: 2vh;
+  border-style: dashed;
+  border-color: darkgreen;
+  border-width: 3px;
+  border-radius: 2em
+  
+}
+
+.journalText {
+ text-align: center;
+}
+.tasks {
+  text-align: center;
+  color: rgb(128, 59, 3);
+}
+
+
