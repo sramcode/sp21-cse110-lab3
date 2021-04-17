@@ -14,6 +14,23 @@ body {
     color: darkgreen
 }
 
+
+/* add new entry styling */
+
+button:hover {
+  color: darkgreen;
+}
+
+button:active {
+  background-color:darkgreen;
+  color: white;
+}
+
+.add-goals {
+  display: flex;
+  justify-content: center;
+}
+
 /* Journal Entry 2 Styling */
 #secondEntry {
   color:  hsl(27, 34%, 41%);
