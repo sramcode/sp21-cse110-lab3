@@ -7,21 +7,46 @@ body {
 }
 
 /* Journal Entry 1 Styling */
+
+
+/* max width */
+@media (max-width: 75rem) {
+  #journal-one {
+    border-style: dashed;
+    border-color: darkgreen;
+    border-width: 3px;
+    border-radius: 2em;
+  
+  }
+}
+
+
+/* max width */
+@media (min-width: 5rem) {
+  #journal-one {
+    border-style: dashed;
+    border-color: darkgreen;
+    border-width: 3px;
+    border-radius: 2em;
+  
+  }
+}
 #firstEntry {
   color:  hsl(27, 34%, 41%);
   font-family: 'Orelega One', cursive;
   text-align: center;
+  position: relative;
 }
 
 #journal-one {
   padding-left: 1cm;
   padding-right: 1cm;
-  margin-top: 2vh;
-  border-style: dashed;
-  border-color: darkgreen;
-  border-width: 3px;
-  border-radius: 2em
-  
+  margin-top: 2vh;  
+}
+
+video {
+  width: 300px;
+  height: 200px;
 }
 
 .journalText {
