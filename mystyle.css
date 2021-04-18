@@ -110,3 +110,39 @@ video {
 a[href$="Entry"] {
   color: brown;
 }
+
+
+/* Journal 3 */
+
+#thirdEntry {
+  color:  hsl(27, 34%, 41%);
+  font-family: 'Orelega One', cursive;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  
+}
+
+#journal-three {
+  padding-left: 1cm;
+  padding-right: 1cm;
+  margin-top: 2vh;  
+  border-style: dashed;
+  border-color: darkgreen;
+  border-width: 3px;
+  border-radius: 2em;
+  display: grid;
+  grid-area: auto;
+
+  
+}
+
+
+.journalText3 {
+ text-align: center;
+}
+.tasks3 {
+  text-align: center;
+  color: rgb(128, 59, 3);
+}
+
