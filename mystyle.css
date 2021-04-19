@@ -151,3 +151,32 @@ a[href$="Entry"] {
   color: rgb(128, 59, 3);
 }
 
+img + p {
+  font-style: italic;
+}
+
+h2 ~ h3 {
+  color:rgb(212, 212, 212);
+}
+
+ul.list > li {
+  color: #FFFFFF;
+}
+
+* {
+  margin-top: 1mm;
+}
+
+ol.sunday-task li {
+  color:#611414;
+}
+
+p.friday-task-title {
+  font-weight: bold;
+  color: white;
+  background: green;
+}
+
+h2,h3 {
+  font-style: italic;
+}
