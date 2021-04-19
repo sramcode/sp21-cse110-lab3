@@ -47,7 +47,8 @@ button:active {
   border-style:dotted;
   border-color: #14612b;
   border-width: 3px;
-  border-radius: 2em
+  border-radius: 2em;
+  display: inline;
   
 }
 
