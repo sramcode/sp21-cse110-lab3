@@ -3,12 +3,14 @@ body {
   }
 
 .container {
+  padding: 1cm 0cm 0cm 0cm;
   display: flex;
   flex-wrap: wrap;
   flex-direction: unset;
   flex-flow: wrap;
   justify-content: center;
   align-content: center;
+  margins: auto;
 
 }
 
@@ -17,7 +19,7 @@ body {
 }
 
 
-/* add new entry styling */
+/* add new entry styling ---------------------*/
 
 button:hover {
   color: darkgreen;
@@ -33,7 +35,7 @@ button:active {
   justify-content: center;
 }
 
-/* Journal Entry 2 Styling */
+/* Journal Entry 2 Styling -----------*/
 #secondEntry {
   color:  hsl(27, 34%, 41%);
   font-family: 'Orelega One', cursive;
@@ -43,6 +45,7 @@ button:active {
   padding-left: 1vw;
   padding-right: 1cm;
   padding-bottom: 2vh;
+  padding-top: 0cm;
   margin-top: 2mm;
   border-style:dotted;
   border-color: #14612b;
@@ -59,7 +62,7 @@ button:active {
   color: rgb(11, 66, 36);
 }
 
-/* Journal Entry 1 Styling */
+/* Journal Entry 1 Styling --------------- */
 
 
 /* max width */
@@ -88,7 +91,7 @@ button:active {
   color:  hsl(27, 34%, 41%);
   font-family: 'Orelega One', cursive;
   text-align: center;
-  position: relative;
+  position: static;
 }
 
 #journal-one {
@@ -107,6 +110,7 @@ video {
 }
 .tasks {
   text-align: center;
+  text-decoration: none;
   color: rgb(128, 59, 3);
 }
 
@@ -115,7 +119,7 @@ a[href$="Entry"] {
 }
 
 
-/* Journal 3 */
+/* Journal 3  -----------*/
 
 #thirdEntry {
   color:  hsl(27, 34%, 41%);
@@ -127,9 +131,11 @@ a[href$="Entry"] {
 }
 
 #journal-three {
-  padding-left: 1cm;
-  padding-right: 1cm;
+  padding: 0cm 1cm 1cm 0cm;
   margin-top: 2vh;  
+  margin-left: 0cm;
+  margin-right: 0cm;
+  margin-bottom: 0cm;
   border-style: dashed;
   border-color: darkgreen;
   border-width: 3px;
@@ -151,6 +157,7 @@ a[href$="Entry"] {
   color: rgb(128, 59, 3);
 }
 
+/* selectors---------- */
 img + p {
   font-style: italic;
 }
